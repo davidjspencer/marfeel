@@ -8,6 +8,8 @@
   --accent: #FF0036;
 
   --beleza: #50E3C2;
+  --jardinagem: #B8E986;
+  --saude: #10E040;
 
   --font: 'Lato', sans-serif;
 
@@ -176,12 +178,17 @@ main {
 		}
 	}
 	.ultimas {
-
+		.card--main {
+			.category {
+				transform: translateY(-50%);
+				margin-bottom: -1rem;
+			}
+		}
 		.category {
 			display: inline-block;
 			position: relative;
-			transform: translateY(-50%);
-			margin-bottom: -1rem;
+
+
 			.category--name {
 				display: inline-block;
 				float: left;
@@ -191,6 +198,15 @@ main {
 				padding: .5rem;
 
 				background: var(--beleza);
+			}
+			.jardinagem {
+				background: var(--jardinagem);
+			}
+			.saude {
+				background: var(--saude);
+			}
+			.moda {
+				background: var(--accent);
 			}
 			.category--comment {
 				display: inline-block;
@@ -210,10 +226,21 @@ main {
 			color: var(--text-color);
 		}
 		span {
-				font-weight: 400;
-				color: var(--grey);
-				margin: 0;
+			font-weight: 400;
+			color: var(--grey);
+			margin: 0;
+		}
+
+		.card--secondary {
+			.category {
+
+				bottom: 28px;
+
 			}
+			.author {
+				font-size: .75rem;
+			}
+		}
 	}
 }
 @import 'cards';

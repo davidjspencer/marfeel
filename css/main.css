@@ -7,6 +7,8 @@
   --grey-dark: #4e4e4e;
   --accent: #FF0036;
   --beleza: #50E3C2;
+  --jardinagem: #B8E986;
+  --saude: #10E040;
   --font: 'Lato', sans-serif;
   --secondary-card-height: 8rem;
   /* 128px */ }
@@ -129,11 +131,12 @@ main {
         width: 50%;
         height: 100%;
         padding: 1rem; }
-  main .ultimas .category {
-    display: inline-block;
-    position: relative;
+  main .ultimas .card--main .category {
     transform: translateY(-50%);
     margin-bottom: -1rem; }
+  main .ultimas .category {
+    display: inline-block;
+    position: relative; }
     main .ultimas .category .category--name {
       display: inline-block;
       float: left;
@@ -143,6 +146,12 @@ main {
       font-weight: 700;
       padding: .5rem;
       background: var(--beleza); }
+    main .ultimas .category .jardinagem {
+      background: var(--jardinagem); }
+    main .ultimas .category .saude {
+      background: var(--saude); }
+    main .ultimas .category .moda {
+      background: var(--accent); }
     main .ultimas .category .category--comment {
       display: inline-block;
       float: left;
@@ -160,6 +169,10 @@ main {
     font-weight: 400;
     color: var(--grey);
     margin: 0; }
+  main .ultimas .card--secondary .category {
+    bottom: 28px; }
+  main .ultimas .card--secondary .author {
+    font-size: .75rem; }
 
 main .cards .card--main, main .cards .card--secondary {
   width: calc(100% - 1em);
