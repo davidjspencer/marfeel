@@ -93,7 +93,7 @@ header {
 		}
 	}
 	nav::-webkit-scrollbar {
-		 display: none;
+		display: none;
 	}
 }
 main {
@@ -222,7 +222,6 @@ main {
 		.card--secondary {
 			.category {
 				bottom: 28px;
-
 			}
 			.author {
 				font-size: .75rem;
@@ -233,16 +232,15 @@ main {
 		float: left;
 		.card--secondary {
 			.card--secondary__text {
-			padding-top: .25rem;
+				padding-top: .25rem;
+			}
+			.date {
+				font-size: 8px;
+				font-weight: 400;
+				color: var(--grey);
+				margin: 0 0 .25rem;
+			}
 		}
-		.date {
-			font-size: 8px;
-			font-weight: 400;
-			color: var(--grey);
-			margin: 0 0 .25rem;
-		}
-		}
-
 	}
 	footer {
 		height: 40vh;
