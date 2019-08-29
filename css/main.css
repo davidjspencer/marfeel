@@ -3,12 +3,19 @@
   --text-color: #393f3e;
   --grey-light: #e7e7e7;
   --grey: #999999;
-  --grey-darker: #4e4e4e;
+  --grey-dark: #4e4e4e;
   --accent: #FF0036;
   --font: 'Lato', sans-serif; }
 
 * {
   box-sizing: border-box; }
+
+h3 {
+  letter-spacing: -.6px;
+  font-size: 1.5em;
+  /* 24 */
+  font-weight: 700;
+  margin: 0; }
 
 body {
   font-family: var(--font);
@@ -65,10 +72,9 @@ header nav {
 
 main {
   width: 100vw;
-  overflow-x: hidden;
-  width: 100vw; }
+  overflow-x: hidden; }
   main h4.section--title {
-    margin: 1em 0 0 .5em;
+    margin: 1em 0 1em .5em;
     padding: 0;
     width: 100%;
     font-size: 1.25em;
@@ -85,17 +91,36 @@ main {
       bottom: 4px;
       background: var(--grey-light); }
   main .hero--cards {
-    width: 100%;
-    margin-left: .5em;
-    margin-right: .5em; }
-    main .hero--cards .hero--card__main {
-      width: 100%; }
-      main .hero--cards .hero--card__main .card--img {
+    width: 100%; }
+    main .hero--cards .hero--card__main .card--img {
+      position: relative; }
+      main .hero--cards .hero--card__main .card--img img {
+        display: block;
+        height: auto;
+        width: 100%;
+        object-fit: cover; }
+    main .hero--cards .hero--card__main .card--text {
+      padding: 1em .5em; }
+    main .hero--cards .hero--card__secondary {
+      clear: both; }
+      main .hero--cards .hero--card__secondary .card--img,
+      main .hero--cards .hero--card__secondary .card--text {
+        display: inline-block;
+        float: left;
+        width: 50%; }
+      main .hero--cards .hero--card__secondary .card--img {
         position: relative; }
-        main .hero--cards .hero--card__main .card--img img {
+        main .hero--cards .hero--card__secondary .card--img img {
           display: block;
-          width: calc(100vw - 1em);
+          width: 100%;
           height: auto;
           object-fit: cover; }
+
+main .hero--cards .hero--card__main, main .hero--cards .hero--card__secondary {
+  width: calc(100% - 1em);
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--grey-light);
+  border-radius: 0 0 4px 4px; }
 
 /*# sourceMappingURL=main.css.map */
