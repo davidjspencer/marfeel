@@ -44,8 +44,6 @@ header .img--container {
     /* 26px / 1em */ }
   header .img--container .search {
     float: right; }
-header nav::-webkit-scrollbar {
-  display: none; }
 header nav {
   white-space: nowrap;
   overflow-x: auto;
@@ -77,6 +75,8 @@ header nav {
           left: -0.5em;
           bottom: -0.5em;
           background: var(--accent); }
+header nav::-webkit-scrollbar {
+  display: none; }
 
 main {
   width: 100vw;

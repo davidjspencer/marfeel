@@ -51,9 +51,7 @@ header {
 			float: right;
 		}
 	}
-	nav::-webkit-scrollbar {
-		 display: none;
-	}
+
 	nav {
 		white-space: nowrap;
 	  overflow-x: auto;
@@ -94,6 +92,9 @@ header {
 				}
 			}
 		}
+	}
+	nav::-webkit-scrollbar {
+		 display: none;
 	}
 }
 main {
