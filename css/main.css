@@ -5,7 +5,9 @@
   --grey: #999999;
   --grey-dark: #4e4e4e;
   --accent: #FF0036;
-  --font: 'Lato', sans-serif; }
+  --font: 'Lato', sans-serif;
+  --secondary-card-height: 8em;
+  /* 128px */ }
 
 * {
   box-sizing: border-box; }
@@ -16,6 +18,10 @@ h3 {
   /* 24 */
   font-weight: 700;
   margin: 0; }
+
+h3.secondary {
+  letter-spacing: -.4px;
+  font-size: 1em; }
 
 body {
   font-family: var(--font);
@@ -91,35 +97,40 @@ main {
       bottom: 4px;
       background: var(--grey-light); }
   main .hero--cards {
-    width: 100%; }
-    main .hero--cards .hero--card__main .card--img {
-      position: relative; }
-      main .hero--cards .hero--card__main .card--img img {
-        display: block;
-        height: auto;
-        width: 100%;
-        object-fit: cover; }
+    width: 100%;
+    height: auto; }
+    main .hero--cards .hero--card__main .card--img img {
+      display: block;
+      height: auto;
+      width: 100%;
+      object-fit: cover; }
     main .hero--cards .hero--card__main .card--text {
       padding: 1em .5em; }
     main .hero--cards .hero--card__secondary {
+      min-height: var(--secondary-card-height);
       clear: both; }
-      main .hero--cards .hero--card__secondary .card--img,
-      main .hero--cards .hero--card__secondary .card--text {
+      main .hero--cards .hero--card__secondary .card--img {
         display: inline-block;
         float: left;
-        width: 50%; }
-      main .hero--cards .hero--card__secondary .card--img {
-        position: relative; }
+        width: 50%;
+        height: 100%; }
         main .hero--cards .hero--card__secondary .card--img img {
           display: block;
           width: 100%;
-          height: auto;
+          height: var(--secondary-card-height);
           object-fit: cover; }
+      main .hero--cards .hero--card__secondary .card--text {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        height: 100%;
+        padding: 1em; }
 
 main .hero--cards .hero--card__main, main .hero--cards .hero--card__secondary {
   width: calc(100% - 1em);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
   background: var(--grey-light);
   border-radius: 0 0 4px 4px; }
 

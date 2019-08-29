@@ -7,6 +7,8 @@
   --accent: #FF0036;
 
   --font: 'Lato', sans-serif;
+
+  --secondary-card-height: 8em; /* 128px */
 }
 * {
   box-sizing: border-box;
@@ -16,6 +18,11 @@ h3 {
 	font-size: 1.5em; /* 24 */
 	font-weight: 700;
 	margin: 0;
+
+}
+h3.secondary {
+	letter-spacing: -.4px;
+	font-size: 1em;
 }
 body {
 	font-family: var(--font);
@@ -112,12 +119,12 @@ main {
 
 	.hero--cards {
 		width: 100%;
+		height: auto;
 
 		.hero--card__main {
 			@extend %card-main;
 
 			.card--img {
-				position: relative;
 				img {
 					display: block;
 					height: auto;
@@ -134,24 +141,32 @@ main {
 
 			@extend %card-main;
 
+			min-height: var(--secondary-card-height);
 			clear: both;
-			.card--img,
-			.card--text {
+
+			.card--img {
 				display: inline-block;
 				float: left;
 				width: 50%;
-			}
-			.card--img {
-				position: relative;
+				height: 100%;
+
 				img {
 					display: block;
 
 					width: 100%;
-					height: auto;
+					height: var(--secondary-card-height);
 
 					object-fit: cover;
 				}
 			}
+			.card--text {
+				display: inline-block;
+				float: left;
+				width: 50%;
+				height: 100%;
+				padding: 1em;
+			}
+
 		}
 	}
 }
