@@ -125,13 +125,13 @@ main {
         width: 50%;
         height: 100%;
         padding: 1rem; }
-  main .ultimas .card--main .category {
+  main section.ultimas .card--main .category {
     transform: translateY(-50%);
     margin-bottom: -1rem; }
-  main .ultimas .category {
+  main section.ultimas .category {
     display: inline-block;
     position: relative; }
-    main .ultimas .category .category--name {
+    main section.ultimas .category .category--name {
       display: inline-block;
       float: left;
       width: 5.75rem;
@@ -140,39 +140,50 @@ main {
       font-weight: 700;
       padding: .5rem;
       background: var(--beleza); }
-    main .ultimas .category .jardinagem {
+    main section.ultimas .category .jardinagem {
       background: var(--jardinagem); }
-    main .ultimas .category .saude {
+    main section.ultimas .category .saude {
       background: var(--saude); }
-    main .ultimas .category .moda {
+    main section.ultimas .category .moda {
       background: var(--accent); }
-    main .ultimas .category .category--comment {
+    main section.ultimas .category .category--comment {
       display: inline-block;
       float: left;
       font-size: 10px;
       font-weight: 700;
       padding: .5rem;
       background: var(--grey-light); }
-      main .ultimas .category .category--comment span {
+      main section.ultimas .category .category--comment span {
         display: inline-block; }
-  main .ultimas .author {
+  main section.ultimas .author {
     margin-top: 1rem;
     font-weight: 900;
     color: var(--text-color); }
-  main .ultimas span {
+  main section.ultimas span {
     font-weight: 400;
     color: var(--grey);
     margin: 0; }
-  main .ultimas .card--secondary .category {
+  main section.ultimas .card--secondary .category {
     bottom: 28px; }
-  main .ultimas .card--secondary .author {
+  main section.ultimas .card--secondary .author {
     font-size: .75rem; }
   main section.popular {
     float: left; }
+    main section.popular .card--secondary .card--secondary__text {
+      padding-top: .25rem; }
+    main section.popular .card--secondary .date {
+      font-size: 8px;
+      font-weight: 400;
+      color: var(--grey);
+      margin: 0 0 .25rem; }
   main footer {
     height: 40vh;
     background: var(--grey-dark);
     clear: both; }
+    main footer p {
+      text-align: center;
+      color: var(--grey-light);
+      line-height: 40vh; }
 
 main .cards .card--main, main .cards .card--secondary {
   width: calc(100% - 1em);

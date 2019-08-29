@@ -167,7 +167,7 @@ main {
 
 		}
 	}
-	.ultimas {
+	section.ultimas {
 		.card--main {
 			.category {
 				transform: translateY(-50%);
@@ -231,11 +231,29 @@ main {
 	}
 	section.popular {
 		float: left;
+		.card--secondary {
+			.card--secondary__text {
+			padding-top: .25rem;
+		}
+		.date {
+			font-size: 8px;
+			font-weight: 400;
+			color: var(--grey);
+			margin: 0 0 .25rem;
+		}
+		}
+
 	}
 	footer {
 		height: 40vh;
 		background: var(--grey-dark);
 		clear: both;
+
+		p {
+			text-align: center;
+			color: var(--grey-light);
+			line-height: 40vh;
+		}
 	}
 }
 @import 'extends';
