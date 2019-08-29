@@ -1,0 +1,16 @@
+
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M26.0007777,4 C29.3144106,4 32,6.078125 32,8.64285714 C32,11.2075893 29.3144106,13.2857143 26.0007777,13.2857143 C25.2321273,13.2857143 24.5009721,13.1696429 23.8237161,12.9665179 C23.1417733,13.4263393 22.0052018,14 20.5639824,14 C20.3390116,14 20.1351317,13.8727679 20.0460808,13.6763393 C19.9570298,13.4799107 19.9992119,13.2522321 20.1538793,13.0959821 C20.1655965,13.0870536 20.8920649,12.3415179 21.2412384,11.4620536 C20.4679011,10.6785714 20.0015553,9.70535714 20.0015553,8.64285714 C20.0015553,6.078125 22.6871447,4 26.0007777,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mosaic-Secondary-w-Details" transform="translate(-112.000000, -115.000000)">
+            <g id="#-Comment-Copy" transform="translate(92.000000, 111.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="comment" fill="#B8E986" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
