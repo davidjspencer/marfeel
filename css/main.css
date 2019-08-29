@@ -167,35 +167,8 @@ main {
     bottom: 28px; }
   main .ultimas .card--secondary .author {
     font-size: .75rem; }
-  main .slider {
-    width: 100vw;
+  main section.popular {
     float: left; }
-    main .slider .side-scroll--container {
-      margin-left: .5rem;
-      margin-bottom: 1rem; }
-      main .slider .side-scroll--container .card-side {
-        display: inline-block;
-        clear: both;
-        width: 45%;
-        height: 200px; }
-        main .slider .side-scroll--container .card-side img {
-          display: block;
-          height: 100%;
-          width: 100%;
-          object-fit: cover; }
-        main .slider .side-scroll--container .card-side .text-overlay {
-          position: relative;
-          display: block;
-          content: "";
-          bottom: 50%;
-          width: 100%;
-          height: 50%;
-          background-image: linear-gradient(RGBA(78, 78, 78, 0.3), RGBA(78, 78, 78, 0.9));
-          color: var(--grey-lightest);
-          padding: .5rem;
-          white-space: normal; }
-    main .slider .side-scroll--container::-webkit-scrollbar {
-      display: none; }
   main footer {
     height: 40vh;
     background: var(--grey-dark);
@@ -209,7 +182,7 @@ main .cards .card--main, main .cards .card--secondary {
   background: var(--grey-lightest);
   border-radius: 0 0 4px 4px; }
 
-header nav, main .slider .side-scroll--container {
+header nav {
   white-space: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
