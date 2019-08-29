@@ -65,6 +65,7 @@ header nav {
 
 main {
   width: 100vw;
+  overflow-x: hidden;
   width: 100vw; }
   main h4.section--title {
     margin: 1em 0 0 .5em;
@@ -92,7 +93,8 @@ main {
       main .hero--cards .hero--card__main .card--img {
         position: relative; }
         main .hero--cards .hero--card__main .card--img img {
-          width: 100%;
+          display: block;
+          width: calc(100vw - 1em);
           height: auto;
           object-fit: cover; }
 
