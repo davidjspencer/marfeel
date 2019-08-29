@@ -51,6 +51,8 @@ header nav {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   padding-left: .5em; }
   header nav ul {
     padding: 0;

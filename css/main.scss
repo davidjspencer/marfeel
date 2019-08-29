@@ -59,6 +59,8 @@ header {
 	  overflow-x: auto;
 	  -webkit-overflow-scrolling: touch;
 	  -ms-overflow-style: -ms-autohiding-scrollbar;
+	  -ms-overflow-style: none;  // IE 10+
+    scrollbar-width: none;  // Firefox
 	  padding-left: .5em;
 
 
