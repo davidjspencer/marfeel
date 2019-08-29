@@ -44,14 +44,14 @@ header .img--container {
     /* 26px / 1em */ }
   header .img--container .search {
     float: right; }
+header nav::-webkit-scrollbar {
+  display: none; }
 header nav {
   white-space: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   padding-left: .5em; }
-  header nav::-webkit-scrollbar {
-    display: none; }
   header nav ul {
     padding: 0;
     margin: 0; }

@@ -51,7 +51,9 @@ header {
 			float: right;
 		}
 	}
-
+	nav::-webkit-scrollbar {
+		 display: none;
+	}
 	nav {
 		white-space: nowrap;
 	  overflow-x: auto;
@@ -59,9 +61,7 @@ header {
 	  -ms-overflow-style: -ms-autohiding-scrollbar;
 	  padding-left: .5em;
 
-	  &::-webkit-scrollbar {
-		  display: none;
-		}
+
 		ul {
 			padding: 0;
 			margin: 0;
