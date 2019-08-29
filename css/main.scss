@@ -176,32 +176,44 @@ main {
 		}
 	}
 	.ultimas {
-		.card--main > .card--main__img {
-			.main--category {
+
+		.category {
+			display: inline-block;
+			position: relative;
+			transform: translateY(-50%);
+			margin-bottom: -1rem;
+			.category--name {
 				display: inline-block;
 				float: left;
 				width: 5.75rem; /* 92px */
 				font-size: 10px;
 				font-weight: 700;
 				padding: .5rem;
-				position: relative;
-				transform: translateY(-50%);
+
 				background: var(--beleza);
 			}
-			.main--comment {
+			.category--comment {
 				display: inline-block;
 				float: left;
 				font-size: 10px;
 				font-weight: 700;
 				padding: .5rem;
-				position: relative;
-				transform: translateY(-50%);
 				background: var(--grey-light);
 				span {
 					display: inline-block;
 				}
 			}
 		}
+		.author {
+			margin-top: 1rem;
+			font-weight: 900;
+			color: var(--text-color);
+		}
+		span {
+				font-weight: 400;
+				color: var(--grey);
+				margin: 0;
+			}
 	}
 }
 @import 'cards';
