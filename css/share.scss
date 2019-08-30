@@ -66,10 +66,7 @@
   -webkit-transition-delay: 80ms;
   transition-delay: 80ms;
 }
-.sbutton:not(:last-child):nth-last-child(6) {
-  -webkit-transition-delay: 100ms;
-  transition-delay: 100ms;
-}
+
 
 .sbutton.mainsbutton {
   background: var(--accent);
