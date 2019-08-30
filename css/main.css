@@ -16,6 +16,8 @@
 * {
   box-sizing: border-box; }
 
+h1,
+h2,
 h3 {
   letter-spacing: -.6px;
   font-size: 1.5rem;
@@ -206,7 +208,7 @@ header nav {
 .sbuttons {
   bottom: 5%;
   position: fixed;
-  margin: 1em;
+  margin: 1rem;
   right: 0; }
 
 .sbutton {
