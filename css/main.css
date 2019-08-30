@@ -127,13 +127,13 @@ main {
         width: 50%;
         height: 100%;
         padding: 1rem; }
-  main section.ultimas .card--main .category {
+  main section.ultimas .card--main .category, main section.for-you .card--main .category {
     transform: translateY(-50%);
     margin-bottom: -1rem; }
-  main section.ultimas .category {
+  main section.ultimas .category, main section.for-you .category {
     display: inline-block;
     position: relative; }
-    main section.ultimas .category .category--name {
+    main section.ultimas .category .category--name, main section.for-you .category .category--name {
       display: inline-block;
       float: left;
       width: 5.75rem;
@@ -142,32 +142,32 @@ main {
       font-weight: 700;
       padding: .5rem;
       background: var(--beleza); }
-    main section.ultimas .category .jardinagem {
+    main section.ultimas .category .jardinagem, main section.for-you .category .jardinagem {
       background: var(--jardinagem); }
-    main section.ultimas .category .saude {
+    main section.ultimas .category .saude, main section.for-you .category .saude {
       background: var(--saude); }
-    main section.ultimas .category .moda {
+    main section.ultimas .category .moda, main section.for-you .category .moda {
       background: var(--accent); }
-    main section.ultimas .category .category--comment {
+    main section.ultimas .category .category--comment, main section.for-you .category .category--comment {
       display: inline-block;
       float: left;
       font-size: 10px;
       font-weight: 700;
       padding: .5rem;
       background: var(--grey-light); }
-      main section.ultimas .category .category--comment span {
+      main section.ultimas .category .category--comment span, main section.for-you .category .category--comment span {
         display: inline-block; }
-  main section.ultimas .author {
+  main section.ultimas .author, main section.for-you .author {
     margin-top: 1rem;
     font-weight: 900;
     color: var(--text-color); }
-  main section.ultimas span {
+  main section.ultimas span, main section.for-you span {
     font-weight: 400;
     color: var(--grey);
     margin: 0; }
-  main section.ultimas .card--secondary .category {
+  main section.ultimas .card--secondary .category, main section.for-you .card--secondary .category {
     bottom: 28px; }
-  main section.ultimas .card--secondary .author {
+  main section.ultimas .card--secondary .author, main section.for-you .card--secondary .author {
     font-size: .75rem; }
   main section.popular {
     float: left; }
