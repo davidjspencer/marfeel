@@ -225,7 +225,8 @@ section.hero-image {
   background-image: url("../img/Pop_article1.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  object-fit: cover; }
+  object-fit: cover;
+  margin-bottom: -1rem; }
   section.hero-image .visual {
     position: relative;
     float: right;
